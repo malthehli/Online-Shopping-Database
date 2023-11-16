@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02A0BAE0-CBC8-495F-BF80-8BC27C95E936" name="CUSTOMER">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:06:35 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="C_ID" id="AA04E02D-A35D-B211-774D-5734DD8D6B92">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:08:25 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="918C1672-799A-96DD-5CE9-C6B238445F24">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:08:25 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="43B06EF9-9E16-41DC-28BD-811E10DD0C08">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:08:25 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="E67BA27A-A230-9DD3-E362-866486A64EF7">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:08:25 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="E71A6938-2BEA-EEC4-A896-4CDFDB37460B">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:08:25 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DBF1AE4-FE91-7BA8-8141-2F0887A4501E" name="CUSTOMER_PK">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:08:25 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA04E02D-A35D-B211-774D-5734DD8D6B92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

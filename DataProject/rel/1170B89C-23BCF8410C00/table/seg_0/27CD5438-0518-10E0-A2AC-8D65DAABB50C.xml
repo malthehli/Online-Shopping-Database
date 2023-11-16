@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27CD5438-0518-10E0-A2AC-8D65DAABB50C" name="PRODUCT">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:18:44 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="P_ID" id="B2BF3B07-6DEB-D449-EE82-71AFAE514048">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:19:43 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="BDFED3AC-87F6-6463-889F-57DE6E3B86AC">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:19:43 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="0DF26506-79BA-195F-C816-EE9C6A94C4AE">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:19:43 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="41E4943E-F30C-C452-E8C2-93F487AC1BAC">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:19:43 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORY_CA_ID" id="7D848067-565F-6718-D28A-5696C3AC245C">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:29:18 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84A07AD4-54D6-F0DE-4A2F-EA4FB4D65190" referredColumn="4EC3B4D6-51AF-DF7A-1B94-9F015E58532C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B3FA1CC-97ED-D2A1-5418-15FB88BA0031" name="PRODUCT_PK">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:19:43 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2BF3B07-6DEB-D449-EE82-71AFAE514048"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72448ED5-7FA9-3813-BBEB-03673EC1E92B" name="PRODUCT_CATEGORY_FK">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:29:18 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D848067-565F-6718-D28A-5696C3AC245C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

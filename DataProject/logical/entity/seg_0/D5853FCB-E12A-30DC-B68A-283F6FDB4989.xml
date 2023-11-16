@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5853FCB-E12A-30DC-B68A-283F6FDB4989" name="PAYMENT">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-20 23:55:13 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PA_ID" id="D0E53015-2332-857D-79B5-08BE476E3E17">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-20 23:55:19 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="D268717B-F978-2174-94D6-6D35BBAFAE11">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-20 23:55:28 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment_method" id="6285D40C-8FAC-EC70-41B9-56C89369C171">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-20 23:55:33 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="O_ID" id="5AC5943D-F2AF-525C-6940-4E916C02AD5E">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:02:33 UTC</createdTime>
+<generatorID>5C2E6E7E-BED1-DBE1-5380-36DB7FFDE459</generatorID>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<referedAttribute>F2095BFF-DD95-4376-71D6-3C11E3BD789D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8937E294-9815-97D7-3F08-7A17145123B0" name="PAYMENT PK">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-20 23:55:46 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0E53015-2332-857D-79B5-08BE476E3E17</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

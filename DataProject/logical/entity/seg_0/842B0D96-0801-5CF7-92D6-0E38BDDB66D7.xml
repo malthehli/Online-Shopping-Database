@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="842B0D96-0801-5CF7-92D6-0E38BDDB66D7" name="SHIPPING ADDRESS">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-20 23:55:51 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="A_ID" id="531C732A-6423-3EAD-6088-5FD6605849EF">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-20 23:55:59 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_line_1" id="4FB0A6D1-2C80-F2EB-4DE1-9B0305A6C6DA">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-20 23:56:05 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_line_2" id="4E404BE7-196A-32BF-1C9A-2D96774FA3C3">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-20 23:56:27 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="210578AE-4CD3-40EE-4C00-C64F59709617">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-20 23:56:38 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="F3114F65-1B8E-4FD6-DE69-007803B805B7">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-20 23:56:41 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip_code" id="6C0A251A-7B87-5213-462F-A5BDB0343E86">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-20 23:56:46 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="C_ID" id="9E7CA9A7-F8B3-2C2D-4B55-B846C593B8B1">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:03:29 UTC</createdTime>
+<generatorID>E2DEF1ED-3D35-3B8B-91C4-F601D53925FD</generatorID>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<referedAttribute>29B5DDFA-0F61-457F-1BE3-9A0F84CAF88D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="O_ID" id="48E9C29E-693F-835C-C937-B4A650E8B82F">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:05:34 UTC</createdTime>
+<generatorID>F6621F20-4121-102B-3919-FA22B107494E</generatorID>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<referedAttribute>F2095BFF-DD95-4376-71D6-3C11E3BD789D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="843CA53C-55CB-98FA-CFB9-95795D7979F9" name="SHIPPING ADDRESS PK">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-20 23:56:05 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<engineerTo>
+<item key="1170B89C-7E69-D943-D00D-23BCF8410C00" value="true"/>
+<item key="C61464B2-5733-17CF-AE92-F318DA552F0B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>531C732A-6423-3EAD-6088-5FD6605849EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

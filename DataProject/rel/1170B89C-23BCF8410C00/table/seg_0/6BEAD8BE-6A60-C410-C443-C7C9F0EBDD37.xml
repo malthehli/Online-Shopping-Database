@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BEAD8BE-6A60-C410-C443-C7C9F0EBDD37" name="SHIPPING ADDRESS">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:14:50 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="A_ID" id="95D98FFD-FC87-7B45-FC6F-66EFAC00F143">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:16:47 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_line_1" id="7EC79E3D-0200-B343-56FC-6F5831F3FE25">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:16:47 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_line_2" id="F8373E23-48AF-0936-C2DD-80B35868AF80">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:16:47 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="1A3BBA8E-1260-F612-5976-B74B7315AB09">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:16:47 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="80CDA48F-B09F-1B1E-A4AD-4888D296D8D9">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:16:47 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip_code" id="F9B65A83-19E3-798F-B825-7AF362AC37D9">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:16:47 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_C_ID" id="CA99FE74-A94C-C62C-57EE-1E58EC0D0DF0">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:26:35 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83EB4F94-458C-A933-2325-EC1AB88D19C5" referredColumn="AA04E02D-A35D-B211-774D-5734DD8D6B92"/>
+</associations>
+</Column>
+<Column name="ORDER_O_ID" id="A06A777D-EE5A-BF3C-0C48-13CA2AA28AC9">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:26:46 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="267B4A64-F479-6EB5-2328-5B84FABA47E3" referredColumn="CE67F0B2-A71B-1BB1-E5DB-AFF366C71DFC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B57509C3-692E-6FE9-93C4-8813BC638C9A" name="SHIPPING ADDRESS_PK">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:16:47 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95D98FFD-FC87-7B45-FC6F-66EFAC00F143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB78067C-82E2-328A-4409-80248B985391" name="SHIPPING ADDRESS_CUSTOMER_FK">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:26:35 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA99FE74-A94C-C62C-57EE-1E58EC0D0DF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F713CCE-7554-DB7C-EBDE-78887F059EFA" name="SHIPPING ADDRESS_ORDER_FK">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:26:46 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A06A777D-EE5A-BF3C-0C48-13CA2AA28AC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

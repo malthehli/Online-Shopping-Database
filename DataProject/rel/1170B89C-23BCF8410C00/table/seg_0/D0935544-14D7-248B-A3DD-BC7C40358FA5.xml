@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0935544-14D7-248B-A3DD-BC7C40358FA5" name="PAYMENT">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:16:55 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PA_ID" id="08949A41-0135-B358-8B75-4451754DB904">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:17:44 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="F71FCF11-5EBB-7EE2-2153-B504102D79DB">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:17:44 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_method" id="217A8B2E-9C76-6470-CC63-E26A83027F1C">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:17:44 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_O_ID" id="FEF2FC7F-C7B0-6371-BE6A-986CF9391DC7">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:27:20 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="933C31E9-E181-A679-39BF-F1DD5C30FB8C" referredColumn="CE67F0B2-A71B-1BB1-E5DB-AFF366C71DFC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08FF02C4-7C1F-9719-F83A-D30C6E182C5B" name="PAYMENT_PK">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:17:44 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08949A41-0135-B358-8B75-4451754DB904"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F51177E1-2A17-C38E-B5DF-1E6628FC6A88" name="PAYMENT_ORDER_FK">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:27:20 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEF2FC7F-C7B0-6371-BE6A-986CF9391DC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

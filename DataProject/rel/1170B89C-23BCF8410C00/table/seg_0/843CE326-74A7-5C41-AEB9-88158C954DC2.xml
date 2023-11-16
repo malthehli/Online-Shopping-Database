@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="843CE326-74A7-5C41-AEB9-88158C954DC2" name="ORDER ITEM">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:17:50 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="O_I_ID" id="0EDAA5BC-B7AC-D657-509B-24828A6C2F18">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:18:36 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity" id="CFB69C37-0141-64A6-B4A7-D06EEA18841E">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:18:36 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_O_ID" id="00C911B8-BD61-BC3E-8097-6728606730DC">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:28:21 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30575500-AFB0-C2E3-7F55-2B6E7600D7DE" referredColumn="CE67F0B2-A71B-1BB1-E5DB-AFF366C71DFC"/>
+</associations>
+</Column>
+<Column name="PRODUCT_P_ID" id="6E72AD29-A31B-177C-F734-810508346A2C">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:29:02 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E913055-9395-BE98-2B3D-26373B64EF57" referredColumn="B2BF3B07-6DEB-D449-EE82-71AFAE514048"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="146A6E6A-0669-A9DD-DBD7-161806E234BA" name="ORDER ITEM_PK">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:18:36 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EDAA5BC-B7AC-D657-509B-24828A6C2F18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78FF82D5-5364-4F00-67C3-647CED992A2A" name="ORDER ITEM_ORDER_FK">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:28:21 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00C911B8-BD61-BC3E-8097-6728606730DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0834FC07-6EC5-AE45-E14E-6E33924DBD3A" name="ORDER ITEM_PRODUCT_FK">
+<createdBy>M7md-PC</createdBy>
+<createdTime>2023-04-21 00:29:02 UTC</createdTime>
+<ownerDesignName>DataProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E72AD29-A31B-177C-F734-810508346A2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
